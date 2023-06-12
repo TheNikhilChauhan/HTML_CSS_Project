@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+}
+body{
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+}
+
+nav{
+    display: flex;
+    width: 90%;
+    margin: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+nav.logo{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+    align-items:center ;
+    gap: 40px;
+    font-weight: 700;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 1000;
+    font-size: 30px;
+    
+}
+
+.search-field{
+    display: flex;
+    gap: 20px;   
+}
+
+input{
+    padding: 4px 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.div1 table{
+    border: 3px solid rgb(197, 224, 231);
+}
