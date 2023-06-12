@@ -1,0 +1,30 @@
+body{
+    padding: 30px;
+    display: flex;
+}
+
+.box{
+    background-color: lightcoral;
+    width: 50px;
+    height: 50px;
+    animation: myanimation 1.5s infinite both;
+    border: 2px solid red;
+    border-radius: 50%;
+    animation-direction: alternate-reverse;
+    
+
+}
+.wall{
+    background-color: black;
+    width: 50px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+
+}
+@keyframes myanimation {
+    from{ transform: translate3d(0,0,0);}
+    to{ transform: translate3d(100px,0,0);}
+}
